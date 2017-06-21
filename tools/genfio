@@ -124,7 +124,7 @@ echo $P
 gen_template() {
 cat >$TEMPLATE << EOF
 [global]
-ioengine=libaio
+ioengine=sg
 invalidate=1
 ramp_time=5
 EOF
